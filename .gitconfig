@@ -1,0 +1,8 @@
+[user]
+	email = fgshun@gmail.com
+	name = fgshun
+[alias]
+hist = log --pretty=format:\"%h %C(yellow)%ad%C(reset) | %s%C(red)%d%C(reset) %C(blue)[%an]%C(reset)\" --graph --date=iso
+graph = log --graph --date=short --decorate=short --pretty=format:'%Cgreen%h %Creset%cd %Cblue%cn %Cred%d %Creset%s'
+[core]
+	editor = vim
